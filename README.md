@@ -1,4 +1,4 @@
-# azureAIfundamentals
+# Azure AI fundamentals - Azure Machine Learning Service
 Azure Machine Learning Service created by Azure AI Fundamentals training.
 
 - Trabalhando com Machine Learning na prática no Azure ML
