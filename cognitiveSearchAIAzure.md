@@ -1,0 +1,67 @@
+# Inteligência de Documentos de IA do Azure
+
+- Serviço de inteligência de Documentos de IA do Azure
+    - O problema: recibos
+    - Análise de documentos
+        - Retorna representações de dados estruturados
+        - Regiões de interesse e relacionamentos.
+        - Configurar opções de análise para análise gratuita e cobrada
+        - Exemplo: Texto é digitalizado e é possível resumir por palavras-chave
+    - Modelos pré-construídos
+        - Faturas
+        - Recibos
+        - Identificador
+        - Reconhece e extrai pares de valores-chave
+    - Modelos personalizados
+        - Treine modelos com pelo menos cinco dados de amostra
+        - Identifique campos de interesse para sua organização
+- Inteligência de documentos de IA do Azure - analisando formulários com o serviço Document Intelligence e Estúdio de inteligência de documentos
+    - Analisando formulários com o serviço Document Intelligent
+        - Extrai informações de formulários digitalizados em formato de imagem ou PDF
+        - Use os modelos pré-treinados par tipos de documentos comuns, como faturas, recibos, IDs, etc
+        - Treine um modelo personalizado usando seus próprios formulários
+        - Os modelos realizam reconhecimento semântico de campos de formulário - não apenas extração de texto
+    - Estúdio de inteligência de documentos
+        - Usando uma abordagem sem código, você pode explorar a funcionalidade usando exemplos e seus próprios documentos
+        - Primeiro - crie um recurso
+            - Recurso de inteligência de documentos
+            - recursos de serviços de IA
+            - Em seguida, habilite o recurso no Document Intelligence Studio
+            - Página de primeiros passos: selecione um modelo para experimentar
+        
+- Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
+    - Pesquisa cognitiva do Azure
+        - O que é mineração de conhecimento?
+            - As organizações têm muito conteúdo
+            - Os dados são bloqueados em documentos, PDFs, notas manuscritas, etc.
+            - A mineração de conhecimento encontra insights - em escala
+            - O Azure cognitive search é a plataforma de mineração de conhecimento alimentado por IA do Azure
+    - Soluções de pesquisa cognitiva do Azure
+        - Ingestão de dados
+            - Azure Blob Storage containers
+            - Azure Data Lake Storage Gen2
+            - Azure Table Storage
+        - Enriquecimento e índice de IA
+            - Permite uma compreensão mais profunda
+            - Visão, Processamento de Linguagem Natural, etc.
+            - A indexação torna o conteúdo pesquisável
+        - Explorar
+            - Pesquisa realizada em índices
+            - Dentro dos aplicativos
+            - Crie visualizações de dados
+    - Enriquecimento
+        - Pesquisa cognitiva do Azure
+            - O enriquecimento de IA torna o conteúdo mais útil para fins de pesquisa
+        - O conteúdo enriquecido é criado por conjuntos de habilidades como
+            - Reconhecer entidades no texto
+            - Traduzir texto
+            - Avalie o sentimento
+        - Um conjunto de habilidades produz documentos enriquecidos
+            - Consumido durante a indexação
+            - Os dados serializados são passados ao mecanismo de pesquisa para indexação
+    - Buscas cognitivas
+        - Portal do Azure → Azure AI search → Configurar informações do project details e instance details → review e create
+        - Create a research → AI + machine learning → create a Azure AI service → project details + instance details → review + create
+        - Storage accounts → Create → project details + instance details → review → create
+        - Containers → Add new → Upload → Upload files
+        - Azure AI Search → Import data → Selecionar dados cognitivos → configurar campos → search
